@@ -10,12 +10,12 @@ Please refer to blog:
 
 How to use this project?
 ========================
-1. Register to Amazon SES account. Verify Email with SES. Keep handy the details with you.
+1. Register to Amazon SES account. Verify Email with SES. Update the following variables in Code.
 
-- SES_REGION=us-east-1
-- SES_EMAIL_SOURCE=your_email
-- AWS_ACCESS_KEY_ID=your_access_key_id
-- AWS_SECRET_ACCESS_KEY=your_secret_access_key
+   - SES_REGION=us-east-1
+   - SES_EMAIL_SOURCE=your_email
+   - AWS_ACCESS_KEY_ID=your_access_key_id
+   - AWS_SECRET_ACCESS_KEY=your_secret_access_key
 
 2. Fork or Clone this repository.
 
