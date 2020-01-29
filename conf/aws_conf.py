@@ -6,7 +6,6 @@ AWS_SECRET_ACCESS_KEY = 'RndLBrjyRTXJ5Oo39ruMbgsWIWO4c2FX/SMKI7tt'
 
 
 AWS_REGION = 'ap-south-1'
-BODY_TEXT = 'You have a mail!'
+BODY_TEXT = 'You have a new mail!'
 CHARSET = 'UTF-8'
 SENDER = 'Nilaya <nilaya.indurkar@gmail.com>' # ENTER YOUR NAME and EMAIL
-RECIPIENT = 'nilaya@qxf2.com'          # ENTER YOUR EMAIL
