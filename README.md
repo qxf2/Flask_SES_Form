@@ -1,4 +1,4 @@
-Automating Email to Users with Flask and Amzon SES.
+Automating Email to Verified Users with Flask and Amzon SES.
 ===================================================
 
 Sending Emails to Verified Email Ids with Flask Application using Amazon SES account.
