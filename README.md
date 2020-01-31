@@ -19,7 +19,11 @@ How to use this project?
 
 2. Fork or Clone this repository.
 
-3. Update the conf file with AWS configuration.
+3. Create Virtual Enviornment, and activate the same.
+
+4. On virtual enviornment,with "aws.cmd configure" command configure AWS credentials.
+
+3. Update the conf file with AWS configuration. 
 
 4. On your local repository, run "python app.py".
 
