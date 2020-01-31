@@ -2,3 +2,4 @@ Flask==1.1.1
 Flask-Bootstrap==3.3.7.1
 Flask-WTF==0.14.2
 boto3==1.10.49
+awscli==1.16.313
