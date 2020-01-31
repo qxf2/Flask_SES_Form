@@ -1,11 +1,11 @@
-SECRET_KEY = 'SjdnUends821Jsdlkvxh391ksdODnejdDw'
+SECRET_KEY = 'xxxxxxxxxxxxx'
 
 # Amazon Web Services credentials
-AWS_ACCESS_KEY_ID = 'AKIAJTAYZP5CWD5F3H4A'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'xxxxxxxxxxxxxxxxxxx'
+AWS_SECRET_ACCESS_KEY = 'xxxxxxxxxxxxxxxxx'
 
 
-AWS_REGION = 'ap-south-1'
+AWS_REGION = 'xxxxxxxx'
 BODY_TEXT = 'You have a new mail!'
 CHARSET = 'UTF-8'
-SENDER = 'Nilaya <nilaya.indurkar@gmail.com>' # ENTER YOUR NAME and EMAIL
+SENDER = 'Name <name.surname@gmail.com>' # ENTER YOUR NAME and EMAIL
