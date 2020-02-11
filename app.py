@@ -16,16 +16,13 @@ class ReusableForm(Form):
     name = TextField('Name:', validators=[validators.required()])
     email = TextField('Email:', validators=[validators.required()])
 
-
 #Form Main Page
 @app.route("/", methods=['GET', 'POST'])
 def hello():
     form = ReusableForm(request.form)
-    # Send email using SES resource
+#Send email using SES resource
     ses_client = boto3.client('ses',region_name=conf.AWS_REGION)
 
-
-    #print(form.errors)
     if request.method == 'POST':
         name=request.form['name']
         email=request.form['email']
