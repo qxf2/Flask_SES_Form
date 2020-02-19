@@ -1,5 +1,5 @@
 from flask import Flask, render_template, flash, request
-from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
+from wtforms import Form, TextField, validators
 from flask_bootstrap import Bootstrap
 import boto3
 from conf import aws_conf as conf
