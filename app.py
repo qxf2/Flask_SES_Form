@@ -21,7 +21,7 @@ class ReusableForm(Form):
 def hello():
     form = ReusableForm(request.form)
 #Send email using SES resource
-    ses_client = boto3.client('ses',region_name=conf.AWS_REGION)
+    ses_client = boto3.client('ses')
 
     if request.method == 'POST':
         name=request.form['name']
