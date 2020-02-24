@@ -13,8 +13,8 @@ Bootstrap(app)
 
 #Reusbale Form to enter name and email
 class ReusableForm(Form):
-    name = TextField('Name:', validators=[validators.required()])
-    email = TextField('Email:', validators=[validators.required()])
+    name = TextField('Name:', validators=[validators.DataRequired()])
+    email = TextField('Email:', validators=[validators.DataRequired()])
 
 #Form Main Page
 @app.route("/", methods=['GET', 'POST'])
