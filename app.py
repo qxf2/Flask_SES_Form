@@ -1,3 +1,4 @@
+#This application demonstrates how to have web users submit form data directly to your mail account via AWS SES.
 from flask import Flask, render_template, flash, request
 from wtforms import Form, TextField, validators
 from flask_bootstrap import Bootstrap
