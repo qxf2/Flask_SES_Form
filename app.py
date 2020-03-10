@@ -32,7 +32,7 @@ def hello():
         user_json['customer_email'] = request.form.get('email')
         user_json['comments'] = request.form.get('Thank you for your email')
 
-        SUBJECT = 'You have a new mail'
+        SUBJECT = 'Thank you for visiting Our Website'
         BODY_HTML = render_template( 'pretty_json.html', user_json = user_json )
 
         # sending email with all details with amzon ses
