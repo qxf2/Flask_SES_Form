@@ -6,7 +6,7 @@ Sending Emails to Verified Email Ids with Flask Application using Amazon SES acc
 The way to build:
 ================
 
-Please refer to Blog: https://qxf2.com/blog/?p=12064&preview=true
+Please refer to Blog: https://qxf2.com/blog/sending-email-through-amazon-ses-with-flask-app/
 
 How to use this project?
 ========================
